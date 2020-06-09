@@ -5,7 +5,7 @@ import Vuex from 'vuex'
 import '../node_modules/todomvc-app-css/index.css'
 import '../node_modules/todomvc-common/base.css'
 /***
- * 1.需要三个组件
+ * 1.需要三个组件           
  * 2.需要路由
  *    主页面? ----  all
  *                  all  active  completed
@@ -60,4 +60,5 @@ new Vue({
   router,
   render: h => h(App),
 }).$mount('#app')
-//    git  clone  git@github.com:BestBatCh/jiuyun.git
+//  1. 将修改好的文件提交到本地仓库
+//  git  add  main.js
